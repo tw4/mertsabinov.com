@@ -60,7 +60,7 @@ const Home = () => {
             <Image
               position='absolute'
               borderRadius='full'
-              boxSize='120px'
+              boxSize='100px'
               src='https://avatars.githubusercontent.com/u/88425310?v=4'
               alt='Dan Abramov'
               border='8px solid #23272a'
