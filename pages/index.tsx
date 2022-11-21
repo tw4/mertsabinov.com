@@ -13,6 +13,15 @@ import CardLink from '../components/CardLink'
 const Home = () => {
   const [isMobile] = useMediaQuery('(min-width: 1200px)')
   return (
+    <>
+    <Head>
+      <title>Mert Sabinov</title>
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta name='description' content='portfolio' />
+      <meta name='keywords' content='mert, mertsabinov, sabinov' />
+      <meta name="author" content="Mert Sabinov" />
+  </Head>
     <Box
       height='100vh'
       backgroundColor='#111111'
@@ -20,14 +29,7 @@ const Home = () => {
       justifyContent='center'
       alignItems='center'
     >
-      <Head>
-        <title>Mert Sabinov</title>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name='description' content='portfolio' />
-        <meta name='keywords' content='mert, mertsabinov, sabinov' />
-        <meta name="author" content="Mert Sabinov" />
-      </Head>
+
       <VStack
         position='relative'
         width='400px'
@@ -156,7 +158,7 @@ const Home = () => {
                     <CardLink 
                       src='https://cdn-icons-png.flaticon.com/512/145/145807.png'
                       alt='linkedin'
-                      title='linkedin'
+                      title='Linkedin'
                       link='https://www.linkedin.com/in/mertsabinov/'
                     />
                     <CardLink
@@ -190,6 +192,7 @@ const Home = () => {
           </VStack>
        </VStack>
     </Box>
+    </>
   )
 }
 
