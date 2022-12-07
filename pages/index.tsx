@@ -11,7 +11,7 @@ import PageLayout from '../components/layout/PageLeyout'
 const Home = () => {
   const [isMobile] = useMediaQuery('(min-width: 1200px)')
   return (
-    <PageLayout pageTitle='Start'>
+    <PageLayout pageTitle='Mert Sabinov'>
       <VStack
         color='white'
       >
