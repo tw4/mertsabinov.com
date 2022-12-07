@@ -10,6 +10,7 @@ const Navbar = () => {
             paddingTop='2.5%'
             backgroundColor='#464d5a'
             color='white'
+            textAlign='center'
         >
             <Link href="/">
                 <Text>Start</Text>
