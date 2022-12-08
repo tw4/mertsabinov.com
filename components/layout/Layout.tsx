@@ -14,7 +14,7 @@ const Layout:FC<IProps> = ({children}) => {
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta name='description' content='portfolio' />
-                <meta name='keywords' content='mert, mertsabinov, sabinov' />
+                <meta name='keywords' content='mert, mertsabinov, sabinov, mert sabinov' />
                 <meta name="author" content="Mert Sabinov" />
             </Head>
             <Box
