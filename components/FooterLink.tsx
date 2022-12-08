@@ -9,7 +9,7 @@ type IProps = {
 const FooterLink:FC<IProps> = ({ postLink, postLinkTitle }) => {
     return (
         <HStack
-            marginTop='5%'
+            paddingTop='5%'
         >
             <Link 
                 href={postLink}
@@ -25,7 +25,6 @@ const FooterLink:FC<IProps> = ({ postLink, postLinkTitle }) => {
                         backgroundColor: 'whatsapp.400',
                         color: 'white'
                     }}
-                
                 >
                     {postLinkTitle}
                 </Button>
