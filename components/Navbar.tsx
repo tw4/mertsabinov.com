@@ -1,7 +1,8 @@
-import { VStack, Text, Link } from "@chakra-ui/react"
+import { VStack, Text, useMediaQuery } from "@chakra-ui/react"
 import NavbarItem from "./NavbarItem"
 
 const Navbar = () => {
+    const [isMobile] = useMediaQuery('(min-width: 768px)')
     return (
         <VStack
             w='20vw'
@@ -12,7 +13,7 @@ const Navbar = () => {
             backgroundColor='#464d5a'
             color='white'
             textAlign='center'
-            overflowY='scroll'
+            overflowY={isMobile ? "hidden" : "scroll"}
         >
             <NavbarItem 
                 linkHref="/"
