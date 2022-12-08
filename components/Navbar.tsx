@@ -12,6 +12,7 @@ const Navbar = () => {
             backgroundColor='#464d5a'
             color='white'
             textAlign='center'
+            overflowY='scroll'
         >
             <NavbarItem 
                 linkHref="/"
