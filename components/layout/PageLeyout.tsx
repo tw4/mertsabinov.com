@@ -14,11 +14,11 @@ const PageLayout:FC<IProps> = ({children, pageTitle}) => {
                <title>{pageTitle}</title> 
             </Head>
             <Box
-                paddingTop='5%'
-                paddingLeft='5%'
-                paddingRight='5%'
+                padding='5%'
                 backgroundColor='#646d7d'
                 w='80vw'
+                h='100vh'
+                overflowY='scroll'
             >
                 {children}
             </Box>
