@@ -1,4 +1,5 @@
 import { VStack, Text, Link } from "@chakra-ui/react"
+import NavbarItem from "./NavbarItem"
 
 const Navbar = () => {
     return (
@@ -12,15 +13,19 @@ const Navbar = () => {
             color='white'
             textAlign='center'
         >
-            <Link href="/">
-                <Text>Start</Text>
-            </Link>
+            <NavbarItem 
+                linkHref="/"
+                linkItemTitle="Start"
+            />
             <Text
                 textDecoration='underline'
             >
                 Projects
             </Text>
-            <Text>Workflow Premium</Text>       
+            <NavbarItem 
+                linkHref="/projects/Workflow"
+                linkItemTitle="Workflow Premium"
+            />
         </VStack>
     )
 }
