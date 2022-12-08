@@ -9,12 +9,14 @@ type IProps = {
 const NavbarItem:FC<IProps> = ({ linkItemTitle, linkHref }) => {
     return(
         <Link
+            w='100%'
             href={linkHref}
             _hover={{
                 textDecoration: 'none'
             }}
         >
             <Text
+                textAlign='start'
                 _hover={{
                     color:'whatsapp.400'
                 }}
