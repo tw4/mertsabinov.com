@@ -4,12 +4,13 @@ import {
   Text,
   Tag,
   HStack,
-  Link
+  Link,
+  Box
 } from '@chakra-ui/react'
 import PageLayout from '../components/layout/PageLeyout'
 
 const Home = () => {
-  const [isMobile] = useMediaQuery('(min-width: 1200px)')
+  const [isMobile] = useMediaQuery('(min-width: 768px)')
   return (
     <PageLayout pageTitle='Mert Sabinov'>
       <VStack
@@ -30,10 +31,12 @@ const Home = () => {
           most of my time is spent creating projects and learning new things every day.
         </Text>
       </VStack>
-      <HStack
+      <Box
+        display='flex'
+        flexDirection={isMobile ? "row" : "column"}
         marginTop='5%'
         color='whatsapp.400'
-        justifyContent='center'
+        justifyContent='space-evenly'
       >
         <Link href='https://github.com/mertsabinov'>
           <Text>
@@ -65,7 +68,7 @@ const Home = () => {
             Reddit
           </Text>
       </Link>  
-      </HStack>
+      </Box>
     </PageLayout>
   )
 }
