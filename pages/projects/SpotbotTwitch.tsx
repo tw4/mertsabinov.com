@@ -24,6 +24,23 @@ const SpotbotTwitch = () => {
                  certainly love it. It's a perfect time to get more feedback and interact with your viewers in
                   the process. Give them a chance to win some awesome prizes by entering with just a few clicks!
                 </Text>
+                <Text
+                    w='100%'
+                    paddingTop='2.5%'
+                    textAlign='start'
+                    fontWeight='bold'
+                    fontSize='large'
+                >
+                    What did spotbot twitch add to me ?
+                </Text>
+                <Text
+                    textAlign='justify'
+                    fontSize='large'
+                >
+                    In the front-end part of the project, I used react, and in the back-end part, 
+                    I created an api using nodejs and express. I used the tmi.js library for the twitch bot. 
+                    In this project, I learned to use applications with different functions together.
+                </Text>
                 <FooterLink 
                     postLink="https://github.com/mertsabinov/spotbot-twitch"
                     postLinkTitle="GitHub Spotbot Twitch"

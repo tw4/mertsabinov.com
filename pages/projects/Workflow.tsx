@@ -32,7 +32,7 @@ const Workflow = () => {
                     </Text>
                     <Text
                         fontWeight='bold'
-                        marginTop='2.5%'
+                        paddingTop='2.5%'
                     >
                         Workflow Premium Features
                     </Text>
