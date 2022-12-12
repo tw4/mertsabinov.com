@@ -44,18 +44,6 @@ const Navbar = () => {
                 linkHref="/projects/NFTShop"
                 linkItemTitle="NFT Shop"
             />
-            <NavbarItem 
-                linkHref="/projects/RandomColorGenerator"
-                linkItemTitle="Random Color Generator"
-            />
-            <NavbarItem 
-                linkHref="/projects/MSS"
-                linkItemTitle="MSS"
-            />
-            <NavbarItem 
-                linkHref="/projects/ElectronReactTaskApp"
-                linkItemTitle="Electron React Task App"
-            />
         </VStack>
     )
 }
