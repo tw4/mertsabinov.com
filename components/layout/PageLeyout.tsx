@@ -1,6 +1,7 @@
 import { Box } from "@chakra-ui/react"
 import type {FC, ReactNode} from 'react'
 import Head from 'next/head'
+import Footer from "../LandingPage/Footer"
 
 type IProps = {
     children: ReactNode
@@ -14,14 +15,14 @@ const PageLayout:FC<IProps> = ({children, pageTitle}) => {
                <title>{pageTitle}</title> 
             </Head>
             <Box
+                h='100%'
                 padding='5%'
-                backgroundColor='#646d7d'
-                w='80vw'
-                h='100vh'
-                overflowY='scroll'
             >
-                {children}
+                <Box>
+                    {children}
+                </Box>
             </Box>
+           <Footer />
         </>
     )
 }
