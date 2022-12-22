@@ -1,14 +1,17 @@
-import { VStack, Text} from "@chakra-ui/react"
+import { VStack, Text, useMediaQuery} from "@chakra-ui/react"
 import FooterLink from "../../components/FooterLink"
 import PageLayout from "../../components/layout/PageLeyout"
 
 const FilmWallet = () => {
+    const [isMobile] = useMediaQuery('(min-width: 768px)')
     return (
         <PageLayout
             pageTitle="Film Walet"
         >
             <VStack
                 color='white'
+                h='100vh'
+                overflowY={isMobile ? "hidden" : "scroll"}
             >
                 <Text
                     fontSize='xx-large'                

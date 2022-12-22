@@ -1,12 +1,15 @@
-import { VStack, Text, Box, HStack, Link } from "@chakra-ui/react"
+import { VStack, Text, Box, useMediaQuery } from "@chakra-ui/react"
 import FooterLink from "../../components/FooterLink"
 import PageLayout from "../../components/layout/PageLeyout"
 
 const Workflow = () => {
+    const [isMobile] = useMediaQuery('(min-width: 768px)')
     return (
         <PageLayout pageTitle="Workflow Premium">
             <VStack
                 color='white'
+                h='100vh'
+                overflowY={isMobile ? "hidden" : "scroll"}
             >
                 <Text
                     fontSize='xx-large'
