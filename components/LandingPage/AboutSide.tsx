@@ -2,7 +2,7 @@ import { Box, Heading, Text, List, ListItem } from "@chakra-ui/react";
 
 const AboutSide = () => {
   return (
-    <Box fontSize="x-large" textColor="white">
+    <Box fontSize="x-large" textColor="white" marginTop="2.5%">
       <Heading as="h1">About me</Heading>
       <Text>
         I am a highly skilled and experienced software developer with a focus on
