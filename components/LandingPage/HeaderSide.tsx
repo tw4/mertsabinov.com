@@ -4,7 +4,10 @@ import CostomButton from "./CostomButton";
 const HeaderSide = () => {
   const [ismobile] = useMediaQuery("(min-width: 768px)");
   return (
-    <Box display="flex" flexDirection={ismobile ? "row" : "column"}>
+    <Box
+      display="flex"
+      flexDirection={ismobile ? "row" : "column"}
+      justifyContent="space-evenly">
       <Box>
         <Image
           src="https://raw.githubusercontent.com/mertsabinov/mertsabinov.com/dev/assets/pp.svg"
