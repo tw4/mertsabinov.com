@@ -32,4 +32,7 @@
   .container {
     padding: 2%;
   }
+  .text {
+    padding-left: 50%;
+  }
 }
