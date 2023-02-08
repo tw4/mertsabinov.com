@@ -10,7 +10,7 @@ type IProps = {
 const RepositoryCard: FC<IProps> = ({ title, link, description }) => {
   return (
     <a href={link} className={styles.container}>
-      <div>
+      <div className={styles.card}>
         <p>{title}</p>
         <p>{description}</p>
       </div>

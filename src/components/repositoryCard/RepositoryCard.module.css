@@ -5,5 +5,11 @@
 }
 
 .container :hover {
+  border-radius: 8px;
   background-color: lightgoldenrodyellow;
+  transition-duration: 0.5s;
+}
+
+.card {
+  padding: 2%;
 }

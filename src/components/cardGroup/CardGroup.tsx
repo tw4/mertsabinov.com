@@ -5,7 +5,7 @@ const CardGroup = () => {
   return (
     <div className={styles.container}>
       <Card
-        img="https://raw.githubusercontent.com/mertsabinov/profilecard.co/main/public/logo512.png?token=GHSAT0AAAAAAB3UQZJJ4MSBVDFKJPT5BLJWY7D6N2Q"
+        img="https://raw.githubusercontent.com/mertsabinov/mertsabinov.com/v1/src/assets/logo/profilecard.png"
         title="profilecard.co"
         url="https://www.profilecard.co/"
       />

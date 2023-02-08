@@ -3,6 +3,7 @@
   text-decoration: none;
   color: black;
   transition-duration: 0.5s;
+  padding: 0.5%;
 }
 
 .container :hover {
@@ -25,4 +26,10 @@
 
 .text {
   padding-left: 5%;
+}
+
+@media screen and (max-width: 758px) {
+  .container {
+    padding: 2%;
+  }
 }
