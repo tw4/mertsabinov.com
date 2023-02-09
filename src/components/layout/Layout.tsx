@@ -1,6 +1,7 @@
 import Head from "next/head";
 import type { ReactNode, FC } from "react";
 import styles from "../../styles/Layout.module.css";
+import Navbar from "../navbar/Navbar";
 
 type IProps = {
   children: ReactNode;
@@ -23,6 +24,7 @@ const Layout: FC<IProps> = ({ children }) => {
         />
         <meta name="author" content="Mert Sabinov" />
       </Head>
+      <Navbar />
       <main className={styles.layout}>{children}</main>
     </>
   );
