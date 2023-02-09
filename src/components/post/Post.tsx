@@ -1,25 +1,40 @@
 /* eslint-disable react/no-children-prop */
 import styles from "./Post.module.css";
-import type { FC } from "react";
+import { FC, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 
 type IProps = {
-  post: {
-    title: string;
-    content: string;
-  };
+  title: string;
+  content: string;
 };
 
-const Post: FC<IProps> = ({ post }) => {
-  return post ? (
-    <div className={styles.container}>
+const Post: FC<IProps> = ({ title, content }) => {
+  const [short, setShort] = useState<number>(200);
+
+  const moreShort = () => {
+    switch (short) {
+      case 200:
+        setShort(content.length);
+        break;
+      case content.length:
+        setShort(200);
+        break;
+    }
+  };
+
+  return (
+    <div className={styles.container} onClick={() => moreShort()}>
       <div className={styles.content}>
-        <h1>{post.title}</h1>
-        <ReactMarkdown children={post.content} rehypePlugins={[rehypeRaw]} />
+        <h2>{title}</h2>
+        <ReactMarkdown
+          children={content.slice(0, short)}
+          rehypePlugins={[rehypeRaw]}
+        />
+        {short !== 200 ? <h3>Less</h3> : null}
       </div>
     </div>
-  ) : null;
+  );
 };
 
 export default Post;

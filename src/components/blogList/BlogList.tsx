@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Post from "../post/Post";
 import RepositoryCard from "../repositoryCard/RepositoryCard";
 import styles from "./BlogList.module.css";
 
@@ -21,19 +22,8 @@ const BlogList = () => {
     <div className={styles.container}>
       <div className={styles.cardGroup}>
         {blogList.length > 0
-          ? blogList.map(({ title, description }: any, idx) => {
-              description = description
-                .slice(0, 200)
-                .replace(/<p>/gi, "")
-                .replace("</p>", "");
-              return (
-                <RepositoryCard
-                  key={idx}
-                  title={title}
-                  description={description}
-                  link={"/blog/" + idx}
-                />
-              );
+          ? blogList.map(({ title, description, content }: any, idx) => {
+              return <Post key={title} title={title} content={content} />;
             })
           : null}
       </div>
