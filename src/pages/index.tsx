@@ -1,6 +1,6 @@
 import CardGroup from "@/components/cardGroup/CardGroup";
 import Layout from "@/components/layout/Layout";
-import RepositoryCardGroup from "@/components/RepositoryCardGroup/RepositoryCardGroup";
+import RepositoryCardGroup from "@/components/repositoryCardGroup/RepositoryCardGroup";
 import styles from "../styles/Home.module.css";
 
 const Home = () => {
