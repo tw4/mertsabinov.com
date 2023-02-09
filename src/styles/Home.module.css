@@ -10,7 +10,7 @@
   margin-top: 10%;
   text-align: center;
   overflow: hidden;
-  border-right: 4px solid lightgreen;
+  border-right: 4px solid black;
   white-space: nowrap;
   animation: typing 3.5s steps(40, end), blink-caret 0.75s infinite;
 }
@@ -31,7 +31,7 @@
     border-color: transparent;
   }
   50% {
-    border-color: lightgreen;
+    border-color: black;
   }
 }
 
