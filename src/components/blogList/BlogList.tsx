@@ -1,7 +1,6 @@
 import { API } from "@/config";
 import { useEffect, useState } from "react";
 import Post from "../post/Post";
-import RepositoryCard from "../repositoryCard/RepositoryCard";
 import styles from "./BlogList.module.css";
 
 const BlogList = () => {
