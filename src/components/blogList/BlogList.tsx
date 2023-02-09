@@ -1,3 +1,4 @@
+import { API } from "@/config";
 import { useEffect, useState } from "react";
 import Post from "../post/Post";
 import RepositoryCard from "../repositoryCard/RepositoryCard";
@@ -11,9 +12,7 @@ const BlogList = () => {
   }, []);
 
   const getBlogList = async () => {
-    await fetch(
-      "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40mertsabinov"
-    )
+    await fetch(API)
       .then((res) => res.json())
       .then((res) => setBlogList(res.items));
   };
