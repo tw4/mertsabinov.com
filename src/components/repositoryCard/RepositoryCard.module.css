@@ -10,6 +10,10 @@
   transition-duration: 0.5s;
 }
 
+.container p {
+  margin-top: 2%;
+}
+
 .card {
   padding: 2%;
 }
