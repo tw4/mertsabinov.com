@@ -9,6 +9,7 @@
 
 body {
   animation: body 1s;
+  background-color: #efe3d7;
 }
 
 @keyframes body {
