@@ -1,6 +1,7 @@
 import CardGroup from "@/components/cardGroup/CardGroup";
 import Layout from "@/components/layout/Layout";
-import RepositoryCardGroup from "@/components/repositoryCardGroup/RepositoryCardGroup";
+import RepositoryCardGroup from "@/components/RepositoryCardGroup/RepositoryCardGroup";
+import SocialCardGroup from "@/components/socalCardGroup/SocalCardGroup";
 import styles from "../styles/Home.module.css";
 
 const Home = () => {
@@ -16,6 +17,8 @@ const Home = () => {
         <CardGroup />
         <h2 className={styles.h2}>Open source projects of my choice</h2>
         <RepositoryCardGroup />
+        <h2 className={styles.h2}>Social Links</h2>
+        <SocialCardGroup />
       </div>
     </Layout>
   );
