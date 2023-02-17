@@ -1,5 +1,5 @@
 {
-  "name": "5c",
+  "name": "v1",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,25 +7,27 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "static": "next build && next export && touch ./out/.nojekyll && echo 'www.mywebsite.com' > ./out/CNAME",
+    "static": "next build && next export && touch ./out/.nojekyll && echo 'www.mertsabinov.com' > ./out/CNAME",
     "deploy": "gh-pages -d out -t true"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.4.0",
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@types/node": "18.11.9",
-    "@types/react": "18.0.25",
-    "@types/react-dom": "18.0.8",
-    "eslint": "8.27.0",
-    "eslint-config-next": "13.0.3",
-    "framer-motion": "^6.5.1",
-    "next": "13.0.3",
+    "@next/font": "13.1.6",
+    "@types/node": "18.13.0",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "eslint": "8.33.0",
+    "eslint-config-next": "13.1.6",
+    "gh-pages": "^5.0.0",
+    "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "4.8.4"
+    "react-icons": "^4.7.1",
+    "react-markdown": "^8.0.5",
+    "rehype-raw": "^6.1.1",
+    "typescript": "4.9.5",
+    "xml2js": "^0.4.23"
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "@types/xml2js": "^0.4.11"
   }
 }

@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardGroup {
+  width: 50%;
+}
+
+@media screen and (max-width: 758px) {
+  .cardGroup {
+    width: 100%;
+  }
+}

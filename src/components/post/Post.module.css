@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container :hover {
+  background-color: lightyellow;
+  cursor: pointer;
+}
+
+.container h2 {
+  text-decoration: underline;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.container h3 {
+  text-align: center;
+  border: 2px black;
+  border-style: dashed;
+  padding: 1%;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 1%;
+}
