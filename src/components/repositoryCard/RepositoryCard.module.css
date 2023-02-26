@@ -6,7 +6,7 @@
 
 .container :hover {
   border-radius: 8px;
-  background-color: lightgoldenrodyellow;
+  background-color: lightyellow;
   transition-duration: 0.5s;
 }
 

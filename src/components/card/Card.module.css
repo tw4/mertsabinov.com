@@ -9,7 +9,7 @@
 .container :hover {
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
-  background-color: lightcyan;
+  background-color: lightyellow;
   transition-duration: 0.5s;
 }
 

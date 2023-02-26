@@ -14,7 +14,7 @@
 
 .container a:hover {
   transition-duration: 0.5s;
-  background-color: lightcoral;
+  background-color: lightyellow;
   text-decoration: underline;
 }
 
