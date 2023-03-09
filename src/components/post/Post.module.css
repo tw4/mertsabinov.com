@@ -5,7 +5,7 @@
 }
 
 .container :hover {
-  background-color: lightyellow;
+  background-color: rgba(66, 165, 245, 0.2);
   cursor: pointer;
 }
 
