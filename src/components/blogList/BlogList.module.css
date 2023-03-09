@@ -3,6 +3,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: loading 0.5s ease-in-out;
+}
+
+@keyframes loading {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 100%;
+  }
 }
 
 .cardGroup {

@@ -1,0 +1,57 @@
+.container {
+  margin-top: 10%;
+  width: 100%;
+  animation: loading 1.2s ease-in-out;
+}
+
+@keyframes loading {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+.timeLineContainer {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-left: 2.5%;
+  border-left: 10px solid #42a5f5;
+}
+
+.timeLineContainer h3 {
+  margin-top: 10px;
+}
+
+.timeLineContainer li {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.timeLineContainer a {
+  text-decoration: none;
+  color: #42a5f5;
+}
+
+.timeLinePoint {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  left: -15px;
+  top: -15px;
+  background-color: #42a5f5;
+}
+
+@media screen and (max-width: 758px) {
+  .container h2 {
+    margin-bottom: 5%;
+  }
+  .timeLineContainer {
+    width: 90%;
+  }
+}

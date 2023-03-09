@@ -1,0 +1,51 @@
+.container {
+  margin-top: 5%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-top: solid 1px #eeeeee;
+  color: rgba(62, 80, 96, 0.5);
+  animation: loading 1.2s ease-in-out;
+}
+
+@keyframes loading {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+.container p {
+  margin-top: 5%;
+}
+
+.iconContainer {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.iconContainer a {
+  color: rgba(62, 80, 96, 0.5);
+}
+
+@media screen and (max-width: 758px) {
+  .container {
+    flex-direction: column;
+  }
+  .iconContainer {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+  .iconContainer :nth-child(-n + 4) {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }
+}

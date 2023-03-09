@@ -1,6 +1,6 @@
 import Head from "next/head";
 import type { ReactNode, FC } from "react";
-import styles from "../../styles/Layout.module.css";
+import styles from "./Layout.module.css";
 import Navbar from "../navbar/Navbar";
 
 type IProps = {

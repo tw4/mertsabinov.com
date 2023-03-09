@@ -1,6 +1,6 @@
-import { API } from "../../../config";
+import { API } from "@/config";
 import { useEffect, useState } from "react";
-import Post from "../post/Post";
+import Post from "@/components/post/Post";
 import styles from "./BlogList.module.css";
 
 const BlogList = () => {
