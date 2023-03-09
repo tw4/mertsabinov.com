@@ -47,7 +47,19 @@
 }
 
 .iconContainer a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
   color: rgba(66, 165, 245, 1);
+}
+
+.iconContainer a:hover {
+  transition-duration: 0.5s;
+  border-radius: 100%;
+  background-color: rgba(66, 165, 245, 0.2);
 }
 
 @media screen and (max-width: 758px) {
