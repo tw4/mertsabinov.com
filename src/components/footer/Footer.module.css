@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: space-between;
   border-top: solid 1px #eeeeee;
-  color: rgba(62, 80, 96, 0.5);
+  color: rgba(62, 80, 96, 1);
   animation: loading 1.2s ease-in-out;
 }
 
@@ -32,7 +32,19 @@
 }
 
 .iconContainer a {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   color: rgba(62, 80, 96, 0.5);
+}
+
+.iconContainer a:hover {
+  transition-duration: 0.5s;
+  border-radius: 100%;
+  background-color: rgba(62, 80, 96, 0.1);
 }
 
 @media screen and (max-width: 758px) {
