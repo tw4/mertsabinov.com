@@ -29,7 +29,7 @@ const Experience = () => {
               libraries
             </li>
             <li>
-              <a href="https://www.profilecard.co/">Link to profilecard.co</a>
+              <a href="https://github.com/mertsabinov/profilecard.co">Link to profilecard.co</a>
             </li>
           </ul>
         </div>
