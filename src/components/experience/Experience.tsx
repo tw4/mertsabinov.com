@@ -8,28 +8,38 @@ const Experience = () => {
         <div className={styles.timeLineContainer}>
           <div className={styles.timeLinePoint}></div>
           <h3>
-            Founder and Lead Front-end Developer, ProfileCard.co (December 2022
-            - Present)
+            Front-end Developer, Notes (2023
+            - 2023)
           </h3>
           <ul>
             <li>
-              Developed a custom UI library using React.js and Stitches CSS to
-              streamline the design process and ensure consistent styling
-              throughout the application
+              My project is an application that allows users to securely
+              store and manage their notes. Utilizing Firebase Realtime
+              Database technology, the application allows users to instantly
+              save their notes. Additionally, the application API is secured
+              with JWT tokens and api-keys to ensure safety. I independently
+              completed all stages of the project and worked in a completely
+              self-directed manner. Through the use of Next.js and TypeScript,
+              I was able to enhance my technical skills and problem- solving abilities.
             </li>
             <li>
-              Utilized Firebase for real-time data synchronization and storage,
-              user authentication, and authorization Developed a responsive and
-              intuitive user interface, improving overall performance of the web
-              application
+              <a href="https://github.com/mertsabinov/your-note-web-app">Link to Notes</a>
+            </li>
+          </ul>
+          <div className={styles.timeLinePoint}></div>
+          <h3>
+            Front-end Developer, ProfileCard (December 2022
+            - 2023)
+          </h3>
+          <ul>
+            <li>
+              ProfileCard enables users to create an online business card. It provides
+              a secure way for users to store and share their profiles using Firebase
+              Authentication and Realtime Database technologies. In this project, I worked
+              independently using React and TypeScript, and developed my technical skills
             </li>
             <li>
-              Gained experience in developing a full-stack web application from
-              scratch and implementing various front-end frameworks and
-              libraries
-            </li>
-            <li>
-              <a href="https://github.com/mertsabinov/profilecard.co">Link to profilecard.co</a>
+              <a href="https://github.com/mertsabinov/profilecard.co">Link to ProfileCard</a>
             </li>
           </ul>
         </div>
