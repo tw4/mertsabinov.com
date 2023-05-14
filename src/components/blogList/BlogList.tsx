@@ -1,7 +1,7 @@
-import { API } from "@/config";
 import { useEffect, useState } from "react";
 import Post from "@/components/post/Post";
 import styles from "./BlogList.module.css";
+import * as process from "process";
 
 const BlogList = () => {
   const [blogList, setBlogList] = useState<[]>([]);
@@ -11,7 +11,7 @@ const BlogList = () => {
   }, []);
 
   const getBlogList = async () => {
-    await fetch(API)
+    await fetch(process.env.API!)
       .then((res) => res.json())
       .then((res) => setBlogList(res.items));
   };
