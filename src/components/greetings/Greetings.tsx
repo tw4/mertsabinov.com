@@ -21,7 +21,7 @@ const Greetings = () => {
           with others and constantly learning.
         </p>
         <div className={styles.iconContainer}>
-          <a href="https://github.com/6fy">
+          <a href="https://github.com/mertsabinov">
             <FaGithub size={20} />
           </a>
           <a href="https://www.linkedin.com/in/mertsabinov/">
