@@ -10,7 +10,7 @@ const Navbar = () => {
         <Link href="/">
           <p>Home</p>
         </Link>
-        <Link href="/blog">
+        <Link href="https://medium.com/@mertsabinov">
           <p>Blog</p>
         </Link>
       </div>
