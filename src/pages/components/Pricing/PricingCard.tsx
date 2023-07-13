@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import { VscDebugBreakpointLogUnverified } from "react-icons/vsc";
+import { MdVerified } from "react-icons/md";
 
 type IProps = {
   planName: string;
@@ -45,9 +45,9 @@ const PricingCard: FC<IProps> = ({
           planFeatures.map((feat, index) => {
             return (
               <div key={index}>
-                <div className="flex flex-row items-center text-start">
-                  <VscDebugBreakpointLogUnverified className="text-gray-500 text-4xl" />
-                  <p className="text-sm text-gray-500">{feat}</p>
+                <div className="flex flex-row items-center text-start space-x-3">
+                  <MdVerified className="text-gray-500 w-5 " />
+                  <p className="text-xs text-gray-500">{feat}</p>
                 </div>
                 <hr className="mt-5 mb-5 w-full border-[1px] border-gray-200" />
               </div>
