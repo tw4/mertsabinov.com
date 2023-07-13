@@ -32,7 +32,7 @@ const Pricing: FC<IProps> = ({ setCurrentPage }) => {
             ]}
           />
           <PricingCard
-            planName="Basic"
+            planName="Standart"
             planPrice="649€"
             planDescriptions="Suitable for more comprehensive projects, this plan provides a two-page web design, allowing for more information and detail."
             suggested={false}
@@ -45,7 +45,7 @@ const Pricing: FC<IProps> = ({ setCurrentPage }) => {
             ]}
           />
           <PricingCard
-            planName="Basic"
+            planName="Premium"
             planPrice="1199€"
             planDescriptions="Perfect for the most extensive and detailed projects, this plan provides a five-page web design, enabling the creation of a multi-faceted online presence."
             suggested={false}
