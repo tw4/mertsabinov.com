@@ -1,16 +1,20 @@
-import Experience from "@/components/experience/Experience";
-import Footer from "@/components/footer/Footer";
-import Greetings from "@/components/greetings/Greetings";
-import Layout from "@/components/layout/Layout";
+import { useState } from "react";
+import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import Pricing from "./components/Pricing/Pricing";
+import Faq from "./components/FAQ/Faq";
+import Footer from "./components/Footer";
 
-const Home = () => {
+export default function Home() {
+  const [currentPage, setCurrentPage] = useState<string>("features");
+
   return (
-    <Layout>
-      <Greetings />
-      <Experience />
+    <main>
+      <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      <Header setCurrentPage={setCurrentPage} />
+      <Pricing setCurrentPage={setCurrentPage} />
+      <Faq setCurrentPage={setCurrentPage} />
       <Footer />
-    </Layout>
+    </main>
   );
-};
-
-export default Home;
+}

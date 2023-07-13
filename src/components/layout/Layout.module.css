@@ -1,9 +1,0 @@
-.layout {
-  margin: 3% 3% 0% 3%;
-}
-
-@media screen and (max-width: 758px) {
-  .layout {
-    margin-top: 10%;
-  }
-}
