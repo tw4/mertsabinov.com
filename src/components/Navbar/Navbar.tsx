@@ -1,4 +1,5 @@
 import type { FC } from "react";
+import { useRouter } from "next/router";
 
 type IProps = {
   currentPage: string;
@@ -7,6 +8,7 @@ type IProps = {
 
 /* eslint-disable @next/next/no-img-element */
 const Navbar: FC<IProps> = ({ currentPage, setCurrentPage }) => {
+  const router = useRouter();
   const handleScroll = (
     e: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
     page: string
@@ -14,6 +16,10 @@ const Navbar: FC<IProps> = ({ currentPage, setCurrentPage }) => {
     e.preventDefault();
     document.getElementById(page)!.scrollIntoView({ behavior: "smooth" });
     setCurrentPage(page);
+  };
+
+  const goToContact = () => {
+    router.push("/contact");
   };
 
   return (
@@ -62,7 +68,9 @@ const Navbar: FC<IProps> = ({ currentPage, setCurrentPage }) => {
         </div>
         {/* Right */}
         <div className="flex flex-row space-x-3 items-center justify-end w-[33%] ">
-          <button className="px-3 py-2 bg-black text-white rounded-lg hover:bg-gray-800  border-2 border-transparent focus:outline-none focus:ring-2 focus:ring-black focus:border-white ">
+          <button
+            onClick={goToContact}
+            className="px-3 py-2 bg-black text-white rounded-lg hover:bg-gray-800  border-2 border-transparent focus:outline-none focus:ring-2 focus:ring-black focus:border-white ">
             Contact
           </button>
         </div>

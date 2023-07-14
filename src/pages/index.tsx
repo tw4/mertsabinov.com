@@ -1,9 +1,9 @@
 import { useState } from "react";
-import Header from "./components/Header/Header";
-import Navbar from "./components/Navbar/Navbar";
-import Pricing from "./components/Pricing/Pricing";
-import Faq from "./components/FAQ/Faq";
-import Footer from "./components/Footer";
+import Header from "../components/Header/Header";
+import Navbar from "../components/Navbar/Navbar";
+import Pricing from "../components/Pricing/Pricing";
+import Faq from "../components/FAQ/Faq";
+import Footer from "../components/Footer";
 import Head from "next/head";
 
 export default function Home() {
