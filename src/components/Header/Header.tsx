@@ -7,6 +7,10 @@ type IProps = {
 };
 
 const Header: FC<IProps> = ({ setCurrentPage }) => {
+  const gotoPricingSection = () => {
+    document.getElementById("pricing")!.scrollIntoView({ behavior: "smooth" });
+    setCurrentPage("pricing");
+  };
   return (
     <div
       onMouseEnter={() => setCurrentPage("features")}
@@ -25,7 +29,9 @@ const Header: FC<IProps> = ({ setCurrentPage }) => {
           are a small business, an entrepreneur, or an individual, we have the
           right plan for you.
         </p>
-        <button className="mt-20 px-7 py-2 bg-black text-white rounded-lg hover:bg-gray-800  border-2 border-transparent focus:border-white focus:outline-none focus:ring-2 focus:ring-black ">
+        <button
+          onClick={gotoPricingSection}
+          className="mt-20 px-7 py-2 bg-black text-white rounded-lg hover:bg-gray-800  border-2 border-transparent focus:border-white focus:outline-none focus:ring-2 focus:ring-black ">
           Start Your Journey Here
         </button>
         <p className="mt-5 text-gray-500">Get your free consultation now</p>

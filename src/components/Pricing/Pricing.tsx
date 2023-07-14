@@ -23,7 +23,7 @@ const Pricing: FC<IProps> = ({ setCurrentPage }) => {
             planPrice="299€"
             planDescriptions="Ideal for smaller projects, this plan provides a compact and effective one-page web design."
             suggested={true}
-            buttonHref="#"
+            buttonHref="/plan"
             planFeatures={[
               "Design for 1 page, includes 5 sections.",
               "Delivery time of 7 days (may vary according to special requests).",
@@ -36,7 +36,7 @@ const Pricing: FC<IProps> = ({ setCurrentPage }) => {
             planPrice="649€"
             planDescriptions="Suitable for more comprehensive projects, this plan provides a two-page web design, allowing for more information and detail."
             suggested={false}
-            buttonHref="#"
+            buttonHref="/plan"
             planFeatures={[
               "Design for 2 pages, each page includes 5 sections.",
               "Delivery time of 14 days (may vary according to special requests).",
@@ -49,7 +49,7 @@ const Pricing: FC<IProps> = ({ setCurrentPage }) => {
             planPrice="1199€"
             planDescriptions="Perfect for the most extensive and detailed projects, this plan provides a five-page web design, enabling the creation of a multi-faceted online presence."
             suggested={false}
-            buttonHref="#"
+            buttonHref="/plan"
             planFeatures={[
               "Design for 5 pages, each page includes 5 sections.",
               "Delivery time of 30 days (may vary according to special requests).",
