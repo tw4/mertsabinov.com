@@ -18,7 +18,7 @@ const FaqCard: FC<IProps> = ({ question, answer }) => {
         <span className="hover:cursor-pointer">
           {isOpen ? <FaChevronUp /> : <FaChevronDown />}
         </span>
-        <h3 className="font-bold text-xl">{question}</h3>
+        <h3 className="font-bold text-xl cursor-pointer">{question}</h3>
       </div>
       <div>
         {isOpen && <p className="mt-2 text-start text-gray-500">{answer}</p>}
