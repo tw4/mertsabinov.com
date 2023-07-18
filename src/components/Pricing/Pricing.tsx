@@ -22,7 +22,7 @@ const Pricing: FC<IProps> = ({ setCurrentPage }) => {
             planName="Basic"
             planPrice="299€"
             planDescriptions="Ideal for smaller projects, this plan provides a compact and effective one-page web design."
-            suggested={true}
+            suggested={false}
             buttonHref="/plan"
             planFeatures={[
               "Design for 1 page, includes 5 sections.",
@@ -35,7 +35,7 @@ const Pricing: FC<IProps> = ({ setCurrentPage }) => {
             planName="Standart"
             planPrice="649€"
             planDescriptions="Suitable for more comprehensive projects, this plan provides a two-page web design, allowing for more information and detail."
-            suggested={false}
+            suggested={true}
             buttonHref="/plan"
             planFeatures={[
               "Design for 2 pages, each page includes 5 sections.",
