@@ -22,6 +22,10 @@ const Navbar: FC<IProps> = ({ currentPage, setCurrentPage }) => {
     router.push("/contact");
   };
 
+  const goToGithub = () => {
+    router.push("https://github.com/mertsabinov");
+  };
+
   return (
     <div className="fixed top-10 flex w-full justify-center bg-white-50">
       <nav className="flex flex-row p-3 items justify-between w-[55vw] h-[70px] bg-white/50 backdrop-blur-xl rounded-xl border-[1px] border-gray-200 lg:w-[90vw] ">
@@ -68,6 +72,11 @@ const Navbar: FC<IProps> = ({ currentPage, setCurrentPage }) => {
         </div>
         {/* Right */}
         <div className="flex flex-row space-x-3 items-center justify-end w-[33%] ">
+          <button
+            onClick={goToGithub}
+            className="px-3 py-2 bg-gray-50 shadow-lg rounded-lg border-[1px] border-gray-200 hover:shadow-md b focus:ring-2 focus:ring-black focus:outline-none">
+            GitHub
+          </button>
           <button
             onClick={goToContact}
             className="px-3 py-2 bg-black text-white rounded-lg hover:bg-gray-800  border-2 border-transparent focus:outline-none focus:ring-2 focus:ring-black focus:border-white ">
