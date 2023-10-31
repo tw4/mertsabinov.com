@@ -8,7 +8,7 @@ import {
 const home = () => {
   return (
     <main>
-      <div className="flex flex-row justify-center items-center w-[100vw] h-[100vh] bg-gradient-to-r from-violet-600 to-indigo-600 ">
+      <div className="flex flex-row justify-center items-center w-[100vw] h-[100vh]">
         <div className="text-center">
           <a
             className="text-white hover:cursor-pointer hover:underline"

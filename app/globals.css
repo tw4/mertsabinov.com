@@ -9,3 +9,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: url("https://raw.githubusercontent.com/mertsabinov/mertsabinov.com/2023-oct/public/bg-img.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Roboto", sans-serif;
+}
