@@ -90,14 +90,19 @@ export default function Home() {
         <h1 className="text-3xl mb-5">news</h1>
         <div className="space-y-3">
           <NewsCard
-            date="2023/09/01"
-            content="BuzzSpire brand was established"
+            date="2023/12/01"
+            content="BuzzSpire Help desk application released as open source"
           />
           <NewsCard
             date="2023/11/28"
             content="npm package that makes it easy to create mock data
 responserun-mock"
           />
+          <NewsCard
+            date="2023/09/01"
+            content="BuzzSpire brand was established"
+          />
+          <NewsCard date="2022/06/01" content="ProfileCard" />
         </div>
         {/*<div className="mt-20">*/}
         {/*  <h1 className="text-3xl mb-5">latest posts</h1>*/}
