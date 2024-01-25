@@ -9,53 +9,52 @@ export default function Home() {
           <div className="space-y-5 mt-5">
             <p>
               Merhaba, ben{' '}
-              <span className="text-textHeighlight">Mert Sabinov</span>!{' '}
-              <span className="text-textHeighlight">1999</span> yılında doğmuş,
+              <span className="text-textHighlight">Mert Sabinov</span>!{' '}
+              <span className="text-textHighlight">1999</span> yılında doğmuş,
               yazılım geliştirme alanında kariyerine odaklanan bir{' '}
-              <span className="text-textHeighlight">
+              <span className="text-textHighlight">
                 bilgisayar bilimleri öğrencisiyim
               </span>
               .{' '}
-              <span className="text-textHeighlight">
+              <span className="text-textHighlight">
                 İstanbul Üniversitesinde Yönetim Bilişim Sistemleri bölümünde
               </span>{' '}
               öğrenim görmekteyim. Aynı zamanda{' '}
-              <span className="text-textHeighlight">
+              <span className="text-textHighlight">
                 Trakya Üniversitesinde İktisadi ve İdari Bilimler bölümünde
               </span>{' '}
               eğitim almaktayım.
             </p>
             <p>
               Bilgisayar dünyasına olan ilgim ve tutkum,{' '}
-              <span className="text-textHeighlight">
+              <span className="text-textHighlight">
                 .NET 8 Web API, Java, TypeScript
               </span>{' '}
               gibi farklı teknolojilerle gerçekleştirdiğim çeşitli projelerle
               birleşerek, geniş bir{' '}
-              <span className="text-textHeighlight">
+              <span className="text-textHighlight">
                 yazılım geliştirme yetenek setine
               </span>{' '}
               sahip olmama olanak tanıdı. Özellikle, açık kaynak projelerdeki
               katkılarımla bilinen bir{' '}
-              <span className="text-textHeighlight">Front End Developer</span>{' '}
-              ve{' '}
-              <span className="text-textHeighlight">Full Stack Developer</span>{' '}
+              <span className="text-textHighlight">Front End Developer</span> ve{' '}
+              <span className="text-textHighlight">Full Stack Developer</span>{' '}
               olarak kendimi geliştirdim.
             </p>
             <p>
-              <span className="text-textHeighlight">Twitch-Stats</span> ve{' '}
-              <span className="text-textHeighlight">BuzzSpire</span> gibi
+              <span className="text-textHighlight">Twitch-Stats</span> ve{' '}
+              <span className="text-textHighlight">BuzzSpire</span> gibi
               projelerde lider geliştirici olarak rol almak, benim hem teknik
               hem de liderlik becerilerimi geliştirmeme olanak sağladı. Ayrıca,{' '}
-              <span className="text-textHeighlight">responserun-mock</span> adlı{' '}
-              <span className="text-textHeighlight">TypeScript NPM</span>{' '}
+              <span className="text-textHighlight">responserun-mock</span> adlı{' '}
+              <span className="text-textHighlight">TypeScript NPM</span>{' '}
               paketini oluşturarak, rastgele veri oluşturma konusundaki
               yeteneklerimi ortaya koydum.
             </p>
             <p>
               Eğitim hayatımda başarılı bir öğrenci olarak çeşitli sertifikalara
               sahibim ve bu sertifikalar,{' '}
-              <span className="text-textHeighlight">
+              <span className="text-textHighlight">
                 HTML5 ile Web Geliştirme, Go İle Programlamaya Giriş, REACT İle
                 Web Programcılığı
               </span>{' '}

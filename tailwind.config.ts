@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     colors: {
       background: '#1c1c1d',
-      textHeighlight: '#2698ba',
+      textHighlight: '#2698ba',
     },
     screens: {
       '2xl': { max: '1535px' },
