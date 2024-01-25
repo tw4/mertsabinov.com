@@ -17,15 +17,14 @@ export default function Home() {
               </span>
               .{' '}
               <span className="text-textHeighlight">
-                İstanbul Üniversitesi'nde Yönetim Bilişim Sistemleri bölümünde
+                İstanbul Üniversitesinde Yönetim Bilişim Sistemleri bölümünde
               </span>{' '}
               öğrenim görmekteyim. Aynı zamanda{' '}
               <span className="text-textHeighlight">
-                Trakya Üniversitesi'nde İktisadi ve İdari Bilimler bölümünde
+                Trakya Üniversitesinde İktisadi ve İdari Bilimler bölümünde
               </span>{' '}
               eğitim almaktayım.
             </p>
-
             <p>
               Bilgisayar dünyasına olan ilgim ve tutkum,{' '}
               <span className="text-textHeighlight">
@@ -53,7 +52,6 @@ export default function Home() {
               paketini oluşturarak, rastgele veri oluşturma konusundaki
               yeteneklerimi ortaya koydum.
             </p>
-
             <p>
               Eğitim hayatımda başarılı bir öğrenci olarak çeşitli sertifikalara
               sahibim ve bu sertifikalar,{' '}
@@ -63,14 +61,12 @@ export default function Home() {
               </span>{' '}
               gibi alanlarda uzmanlığımı pekiştirmeme yardımcı oldu.
             </p>
-
             <p>
               Teknoloji dünyasındaki gelişmeleri takip etmek, seyahat etmek ve
               farklı kültürleri keşfetmek, yüzmek, film ve dizi izlemek, kişisel
               gelişim ve açık kaynaklı projelere katkıda bulunmak benim ilgi
               alanlarımdan sadece birkaçı.
             </p>
-
             <p>
               Gelecekte, yazılım dünyasındaki kariyerimi daha da ileriye
               taşımayı ve teknolojiye katkıda bulunmayı hedefliyorum.
