@@ -1,0 +1,32 @@
+{
+  "bio": {
+    "name": "Mert Sabinov",
+    "description": [
+      "Hello, I'm Mert Sabinov! I was born in 1999 and I am a computer science student focusing on a career in software development.",
+      "I am currently studying Management Information Systems at Istanbul University and also pursuing education in Economics and Administrative Sciences at Trakya University.",
+      "My passion and interest in the world of computers, combined with various projects using technologies such as .NET 8 Web API, Java, TypeScript, have allowed me to develop a wide range of software development skills.",
+      "Especially through my contributions to open-source projects, I have evolved into a recognized Front End Developer and Full Stack Developer. Taking on the role of a lead developer in projects like Twitch-Stats and BuzzSpire has provided opportunities to enhance both my technical and leadership skills.",
+      "Additionally, creating the TypeScript NPM package called responserun-mock to generate random data showcased my abilities in data manipulation. As a successful student, I hold various certifications, solidifying my expertise in areas such as HTML5 Web Development, Introduction to Programming with Go, and Web Programming with REACT.",
+      "Keeping up with technological advancements, traveling, exploring different cultures, swimming, watching films and series, personal development, and contributing to open-source projects are just a few of my interests.",
+      "In the future, I aspire to further advance my career in the software industry and contribute to technology."
+    ]
+  },
+  "news": [
+    {
+      "date": "2023/12/01",
+      "content": "BuzzSpire Help desk application released as open source"
+    },
+    {
+      "date": "2023/11/28",
+      "content": "npm package that makes it easy to create mock data responserun-mock"
+    },
+    {
+      "date": "2023/09/01",
+      "content": "BuzzSpire brand was established"
+    },
+    {
+      "date": "2022/06/01",
+      "content": "ProfileCard"
+    }
+  ]
+}

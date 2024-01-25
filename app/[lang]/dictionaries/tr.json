@@ -1,0 +1,32 @@
+{
+  "bio": {
+    "name": "Mert Sabinov",
+    "description": [
+      "Merhaba, ben Mert Sabinov! 1999 yılında doğmuş, yazılım geliştirme alanında kariyerine odaklanan bir bilgisayar bilimleri öğrencisiyim.",
+      "İstanbul Üniversitesinde Yönetim Bilişim Sistemleri bölümünde öğrenim görmekteyim. Aynı zamanda Trakya Üniversitesinde İktisadi ve İdari Bilimler bölümünde eğitim almaktayım.",
+      "Bilgisayar dünyasına olan ilgim ve tutkum, .NET 8 Web API, Java, TypeScript gibi farklı teknolojilerle gerçekleştirdiğim çeşitli projelerle birleşerek, geniş bir yazılım geliştirme yetenek setine sahip olmama olanak tanıdı.",
+      "Özellikle, açık kaynak projelerdeki katkılarımla bilinen bir Front End Developer ve Full Stack Developer olarak kendimi geliştirdim. Twitch-Stats ve BuzzSpire gibi projelerde lider geliştirici olarak rol almak, benim hem teknik hem de liderlik becerilerimi geliştirmeme olanak sağladı.",
+      "Ayrıca, responserun-mock adlı TypeScript NPM paketini oluşturarak, rastgele veri oluşturma konusundaki yeteneklerimi ortaya koydum. Eğitim hayatımda başarılı bir öğrenci olarak çeşitli sertifikalara sahibim ve bu sertifikalar, HTML5 ile Web Geliştirme, Go İle Programlamaya Giriş, REACT İle Web Programcılığı gibi alanlarda uzmanlığımı pekiştirmeme yardımcı oldu.",
+      "Teknoloji dünyasındaki gelişmeleri takip etmek, seyahat etmek ve farklı kültürleri keşfetmek, yüzmek, film ve dizi izlemek, kişisel gelişim ve açık kaynaklı projelere katkıda bulunmak benim ilgi alanlarımdan sadece birkaçı.",
+      "Gelecekte, yazılım dünyasındaki kariyerimi daha da ileriye taşımayı ve teknolojiye katkıda bulunmayı hedefliyorum."
+    ]
+  },
+  "news": [
+    {
+      "date": "2023/12/01",
+      "content": "BuzzSpire Help desk uygulaması açık kaynak olarak yayınlandı"
+    },
+    {
+      "date": "2023/11/28",
+      "content": "responserun-mock adlı npm paketi, kolayca sahte veri oluşturmayı sağlar"
+    },
+    {
+      "date": "2023/09/01",
+      "content": "BuzzSpire markası kuruldu"
+    },
+    {
+      "date": "2022/06/01",
+      "content": "ProfileCard"
+    }
+  ]
+}
