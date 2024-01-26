@@ -16,11 +16,15 @@ interface ArticlesProps {
 export const Articles: FC<ArticlesProps> = ({ lang = 'en-US' }) => {
   const [items, setItems] = useState<Articles[]>([]);
   const [error, setError] = useState(false);
-
-  const intl = getDictionary(lang as Locale).then(res => res.article.more);
+  const [moreText, setMoreText] = useState<string>();
 
   useEffect(() => {
     async function fetchData() {
+      const moreText = await getDictionary(lang as Locale).then(
+        res => res.article.more
+      );
+      setMoreText(moreText);
+
       try {
         const res = await fetch(
           'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@mertsabinov'
@@ -68,7 +72,7 @@ export const Articles: FC<ArticlesProps> = ({ lang = 'en-US' }) => {
           target={'_blank'}
           rel={'noopener noreferrer'}
         >
-          {intl}
+          {moreText}
         </a>
       </div>
     </section>
