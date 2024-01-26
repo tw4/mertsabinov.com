@@ -1,5 +1,7 @@
 import { NewsCard } from '@/app/components/NewsCard';
 import { getDictionary, Locale } from '@/app/[lang]/dictionaries';
+import { Articles } from '@/app/components/Articles';
+import React from 'react';
 
 interface HomeProps {
   params: {
@@ -11,8 +13,8 @@ export default async function Home({ params: { lang } }: HomeProps) {
   const intl = await getDictionary(lang as Locale);
   return (
     <main>
-      <div className="flex flex-row items-center justify-between md:flex-col-reverse">
-        <div>
+      <div className="flex flex-row items-center justify-between lg:flex-col-reverse">
+        <div className="w-1/2 lg:w-full">
           <h1 className="text-3xl">{intl.bio.name}</h1>
           <div className="space-y-3 mt-5">
             {intl.bio.description.map((text: string, index: number) => (
@@ -22,7 +24,7 @@ export default async function Home({ params: { lang } }: HomeProps) {
         </div>
         <div>
           <img
-            className="rounded-full border-2 border-b-textHighlight border-t-textHighlight md:h-40"
+            className="rounded-full border-2 border-b-textHighlight border-t-textHighlight lg:h-80 md:h-40"
             src="/avatar.jpeg"
             alt="avatar"
           />
@@ -36,14 +38,10 @@ export default async function Home({ params: { lang } }: HomeProps) {
             <NewsCard key={index} date={news.date} content={news.content} />
           ))}
         </div>
-        {/*<div className="mt-20">*/}
-        {/*  <h1 className="text-3xl mb-5">latest posts</h1>*/}
-        {/*  <div className="space-y-3">*/}
-        {/*    <NewsCard date="2024/01/01" content="news " />*/}
-        {/*    <NewsCard date="2024/01/01" content="news " />*/}
-        {/*    <NewsCard date="2024/01/01" content="news " />*/}
-        {/*  </div>*/}
-        {/*</div>*/}
+        <div className="mt-20">
+          <Articles lang={lang} />
+          <div className="space-y-3"></div>
+        </div>
       </div>
     </main>
   );
