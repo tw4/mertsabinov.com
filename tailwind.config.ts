@@ -10,6 +10,17 @@ const config: Config = {
     colors: {
       background: '#1c1c1d',
       textHighlight: '#2698ba',
+      gray: {
+        100: '#f7fafc',
+        200: '#e5e7eb',
+        300: '#d1d5db',
+        400: '#9ca3af',
+        500: '#6b7280',
+        600: '#4b5563',
+        700: '#374151',
+        800: '#252f3f',
+        900: '#161e2e',
+      },
     },
     screens: {
       '2xl': { max: '1535px' },

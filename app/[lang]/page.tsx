@@ -13,7 +13,7 @@ export default async function Home({ params: { lang } }: HomeProps) {
   const intl = await getDictionary(lang as Locale);
   return (
     <main>
-      <div className="flex flex-row items-center justify-between lg:flex-col-reverse">
+      <div className="mt-10 flex flex-row items-center justify-between lg:flex-col-reverse md:mt-16 sm:mt-20">
         <div className="w-1/2 lg:w-full">
           <h1 className="text-3xl">{intl.bio.name}</h1>
           <div className="space-y-3 mt-5">
