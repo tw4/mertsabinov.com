@@ -22,13 +22,11 @@ export default async function Home({ params: { lang } }: HomeProps) {
             ))}
           </div>
         </div>
-        <div>
-          <img
-            className="rounded-full border-2 border-b-textHighlight border-t-textHighlight lg:h-80 md:h-40"
-            src="/avatar.jpeg"
-            alt="avatar"
-          />
-        </div>
+        <img
+          className="rounded-full border-2 border-b-textHighlight border-t-textHighlight h-80 md:h-40"
+          src="/avatar.jpeg"
+          alt="avatar"
+        />
       </div>
 
       <div className="mt-20">
