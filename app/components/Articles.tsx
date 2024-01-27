@@ -42,7 +42,6 @@ export const Articles: FC<ArticlesProps> = ({ lang = 'en-US' }) => {
   return (
     <section>
       <div>
-        <h1 className="text-3xl mb-5">latest posts</h1>
         <ul className="space-y-3 mb-10">
           {items.map(
             (item, index) =>

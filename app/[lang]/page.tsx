@@ -30,13 +30,14 @@ export default async function Home({ params: { lang } }: HomeProps) {
       </div>
 
       <div className="mt-20">
-        <h1 className="text-3xl mb-5">news</h1>
+        <h1 className="text-3xl mb-5">{intl.bio.news}</h1>
         <div className="space-y-3">
           {intl.news.map((news: any, index: number) => (
             <NewsCard key={index} date={news.date} content={news.content} />
           ))}
         </div>
         <div className="mt-20">
+          <h1 className="text-3xl mb-5">{intl.bio.lastPost}</h1>
           <Articles lang={lang} />
           <div className="space-y-3"></div>
         </div>
