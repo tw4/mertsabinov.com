@@ -31,5 +31,6 @@
       "content": "ProfileCard"
     }
   ],
-  "article" : {"more": "Read More on Medium"}
-  }
+  "article" : {"more": "Read More on Medium"},
+  "navbar" : {"home": "Home"}
+}

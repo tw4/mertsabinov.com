@@ -31,5 +31,6 @@
       "content": "ProfileCard"
     }
   ],
-  "article" : {"more": "Devamını Oku"}
+  "article" : {"more": "Devamını Oku"},
+  "navbar" : {"home": "Ana Sayfa"}
 }
