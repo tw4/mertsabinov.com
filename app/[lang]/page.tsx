@@ -23,7 +23,7 @@ export default async function Home({ params: { lang } }: HomeProps) {
           </div>
         </div>
         <img
-          className="rounded-full border-2 border-b-textHighlight border-t-textHighlight h-80 md:h-40"
+          className="rounded-full border-2 border-b-textHighlight border-t-textHighlight h-80 md:h-40 sm:mb-10"
           src="/avatar.jpeg"
           alt="avatar"
         />

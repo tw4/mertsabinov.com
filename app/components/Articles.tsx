@@ -47,7 +47,7 @@ export const Articles: FC<ArticlesProps> = ({ lang = 'en-US' }) => {
             (item, index) =>
               index <= 5 && (
                 <div
-                  className="flex flex-row justify-between text-end hover:cursor-pointer hover:underline hover:decoration-textHighlight"
+                  className=" hover:cursor-pointer hover:underline hover:decoration-textHighlight"
                   key={index}
                 >
                   <p>
