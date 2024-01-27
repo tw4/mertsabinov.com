@@ -71,7 +71,7 @@ export const Navbar = () => {
           style={{
             width: `${progressWidth}%`,
             height: '2px',
-            transition: 'width 0.3s ease-in-out',
+            transition: 'width ease-in-out',
           }}
         ></div>
       </div>
